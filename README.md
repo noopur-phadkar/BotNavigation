@@ -51,7 +51,7 @@ BotNavigator was developed with flexibility and scalability in mind, ensuring it
 
 ## Output
 
-![Pathfinding in Warehouse](path_to_image.png)
+![Pathfinding in Warehouse](output.png)
 
 The above image illustrates the best path determined by avoiding obstacles and minimizing travel distance.
 Dock Location: (0, 0)
