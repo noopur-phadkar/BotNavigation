@@ -49,6 +49,14 @@ BotNavigator was developed with flexibility and scalability in mind, ensuring it
 - **Libraries:** Matplotlib for visualization, Numpy for efficient array operations, and custom algorithms for pathfinding.
 - **Simulation:** Before deployment, the pathfinding solution is rigorously tested in simulated environments to ensure reliability and efficiency.
 
+## Output
+
+![Pathfinding in Warehouse](path_to_image.png)
+
+The above image illustrates the best path determined by avoiding obstacles and minimizing travel distance.
+Dock Location: (0, 0)
+Product Location: (9, 9)
+
 ## Conclusion
 
 BotNavigator represents a leap forward in automated warehouse management, offering a robust, efficient, and adaptable solution for navigating complex environments. By leveraging the A* algorithm, it ensures that robotic operations are optimized for speed, safety, and reliability, setting a new standard for logistics operations.
