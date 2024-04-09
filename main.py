@@ -62,12 +62,22 @@ def reconstruct_path(came_from, start, goal):
     path.reverse()  # optional
     return path
 
-def visualize_warehouse(warehouse, path):
-    fig, ax = plt.subplots()
-    ax.imshow(warehouse, cmap='hot', interpolation='nearest')
+def visualize_warehouse_updated(warehouse, path):
+    # Create a color map: 0 (available space) in white, 1 (obstacle) in black
+    colored_warehouse = np.zeros((warehouse.shape[0], warehouse.shape[1], 3))
+    for i in range(warehouse.shape[0]):
+        for j in range(warehouse.shape[1]):
+            if warehouse[i][j] == 1:  # Obstacle
+                colored_warehouse[i][j] = [0, 0, 0]  # Black
+            else:  # Available space
+                colored_warehouse[i][j] = [1, 1, 1]  # White
 
+    # Convert path points to red
     for point in path:
-        ax.plot(point[1], point[0], marker='o', color='blue', markersize=5)
+        colored_warehouse[point[0], point[1]] = [1, 0, 0]  # Red
+
+    fig, ax = plt.subplots()
+    ax.imshow(colored_warehouse, interpolation='nearest')
 
     plt.show()
 
@@ -85,7 +95,7 @@ warehouse_layout = np.array([
     [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 ])
 
-start = (0, 0)  # Starting position
+start = (0, 4)  # Starting position
 goal = (9, 9)  # Goal position
 
 came_from, cost_so_far = a_star_search(warehouse_layout, start, goal)
