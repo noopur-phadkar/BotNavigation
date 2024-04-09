@@ -55,8 +55,8 @@ BotNavigator was developed with flexibility and scalability in mind, ensuring it
 
 
 The above image illustrates the best path determined by avoiding obstacles and minimizing travel distance.
-Dock Location: (0, 4)
-Product Location: (9, 9)
+- Dock Location: (0, 4)
+- Product Location: (9, 9)
 
 ## Conclusion
 
