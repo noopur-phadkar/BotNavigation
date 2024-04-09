@@ -51,10 +51,11 @@ BotNavigator was developed with flexibility and scalability in mind, ensuring it
 
 ## Output
 
-![Pathfinding in Warehouse](output.png)
+<img width="150" alt="image" src="https://github.com/noopur-phadkar/BotNavigator/assets/98292727/78e4f04b-18c1-4df7-962d-8a4352a940b1">
+
 
 The above image illustrates the best path determined by avoiding obstacles and minimizing travel distance.
-Dock Location: (0, 0)
+Dock Location: (0, 4)
 Product Location: (9, 9)
 
 ## Conclusion
