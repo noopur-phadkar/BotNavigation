@@ -2,7 +2,7 @@
 
 ## Overview
 
-BotNavigator is an innovative project designed to revolutionize the way robots navigate within warehouse environments. Utilizing advanced pathfinding algorithms, BotNavigator enables automated robots to determine the most efficient routes from their docking stations to specific products and then to loading docks, all while avoiding obstacles and minimizing travel time. This solution is particularly tailored to enhance efficiency and productivity in warehouse operations, making it a valuable asset in logistics and inventory management.
+BotNavigator is an innovative project designed to revolutionize the way robots navigate within warehouse environments. Utilizing advanced pathfinding algorithms, BotNavigator enables automated robots to determine the most efficient routes from their docking stations to specific products and loading docks, all while avoiding obstacles and minimizing travel time. This solution is tailored to enhance efficiency and productivity in warehouse operations, making it a valuable asset in logistics and inventory management.
 
 ## Pathfinding Algorithms: An Introduction
 
@@ -60,8 +60,4 @@ The above image illustrates the best path determined by avoiding obstacles and m
 
 ## Conclusion
 
-BotNavigator represents a leap forward in automated warehouse management, offering a robust, efficient, and adaptable solution for navigating complex environments. By leveraging the A* algorithm, it ensures that robotic operations are optimized for speed, safety, and reliability, setting a new standard for logistics operations.
-
----
-
-For further inquiries or contributions, feel free to reach out or contribute to the project repository. Your feedback and contributions are highly valued as we continue to improve BotNavigator.
+BotNavigator represents a leap forward in automated warehouse management, offering a robust, efficient, and adaptable solution for navigating complex environments. Leveraging the A* algorithm ensures that robotic operations are optimized for speed, safety, and reliability, setting a new standard for logistics operations.
